@@ -1,0 +1,714 @@
+body {
+  text-decoration: none;
+  font-family: "Poppins";
+}
+/* navbar css */
+.navbar {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+.navbar .btn-download {
+  background-color: white;
+  color: #3b41e3;
+  width: 235px;
+  height: 48px;
+  border: none;
+}
+.navbar .btn-download:hover {
+  background-color: #7d81f3;
+  color: white;
+}
+.navbar .nav-item .nav-link {
+  color: white;
+  font-size: 14px;
+}
+.navbar .nav-item .nav-link:hover {
+  color: #7d81f3;
+}
+.navbar-fixed {
+  background-color: #002374;
+  backdrop-filter: blur(5px);
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.2);
+}
+/* End: Navbar section */
+
+/* Start: Modal section */
+.modals {
+  z-index: 2;
+}
+/* End: Modal section */
+
+/* jumbotron css */
+.jumbotron {
+  background-image: url("../img/jumbo-bg.jpg");
+  background-size: cover;
+  height: 700px;
+  padding-top: 200px;
+  overflow: hidden;
+}
+.jumbotron .title-jumbotron {
+  padding-left: 70px;
+}
+.jumbotron .title-jumbotron h1 {
+  text-align: left;
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+.jumbotron .title-jumbotron p {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+.jumbotron .title-jumbotron h1 span {
+  color: #ff872e;
+}
+.utulity .btn-1 {
+  background-color: #30e277;
+  color: white;
+  width: 192px;
+  border-radius: 40px;
+  transition: 0.8s;
+  margin-right: 20px;
+}
+.utulity .btn-1:hover {
+  color: #dadada;
+  background-color: #259e53;
+}
+.utulity .btn-2 {
+  background-color: #ff872e;
+  color: white;
+  width: 192px;
+  border-radius: 40px;
+  transition: 0.8s;
+  margin-right: 20px;
+}
+.utulity .btn-2:hover {
+  color: #dadada;
+  opacity: 0.8;
+}
+/* end jumbotron css */
+
+/* Start: Service section */
+.service-section {
+  margin: 100px 0px;
+}
+.card {
+  border: none;
+}
+.service-item {
+  gap: 20px;
+}
+.service-title h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #3b41e3;
+}
+.service-title p {
+  font-size: 16px;
+}
+.icon-service {
+  background-image: url("../img/bg-service.png");
+  background-size: cover;
+  width: 350px;
+  height: 180px;
+  border-radius: 10px;
+}
+.icon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card p {
+  display: none;
+}
+.icon .icon-1 {
+  width: 60px;
+  margin: auto;
+}
+.icon .icon-2 {
+  width: 80px;
+}
+.icon .icon-3,
+.icon-4,
+.icon-5,
+.icon-6 {
+  width: 50px;
+}
+.icon .icon-1,
+.icon-2,
+.icon-3,
+.icon-4,
+.icon-5,
+.icon-6 {
+  margin-bottom: 10px;
+}
+.icon-card h5 {
+  font-weight: 600;
+  font-size: 17px;
+  display: block;
+}
+.icon-card p {
+  font-size: 14px;
+  display: block;
+}
+/* End: Service section */
+
+/* Start: Shop section */
+.shop-section {
+  background-color: #f0f0f0;
+  padding: 40px 0;
+}
+.shop-title h4 {
+  font-size: 14px;
+}
+.btnSeacrh {
+  background-color: #002374;
+  color: white;
+  border-radius: 10px;
+}
+.shopCon {
+  margin-left: 10px;
+}
+.shop-item {
+  width: 270px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.shop-item .cardImg {
+  background-color: #f6f6f6;
+  width: 100%;
+  padding: 20px 5px;
+}
+.shop-item .cardImg img {
+  width: 243px;
+  margin: auto;
+  margin-left: 10px;
+}
+.shop-item .card-title {
+  font-size: 15px;
+  margin: 3px 0;
+}
+.shop-item .card-text-1,
+.card-text-2,
+.card-text-3,
+.card-text-4,
+.card-text-5 {
+  margin: 2px 0;
+}
+.shop-item .card-text-1 {
+  display: block;
+  font-size: 12px;
+  color: #9698a9;
+}
+.shop-item .card-text-2 {
+  display: block;
+  font-size: 16px;
+}
+.shop-item .card-text-3 {
+  display: block;
+  font-size: 12px;
+}
+.shop-item .card-text-3 svg {
+  width: 20px;
+  height: 20px;
+}
+.shop-item .card-text-4 {
+  display: block;
+  font-size: 12px;
+}
+.shop-item .card-text-4 svg {
+  width: 20px;
+  height: 20px;
+}
+.shop-item .card-text-5 {
+  display: block;
+  font-size: 12px;
+}
+.shop-item .card-text-5 svg {
+  width: 20px;
+  height: 20px;
+}
+.btn-detail {
+  margin-top: 10px;
+  font-size: 14px;
+  background-color: #30e277;
+  color: white;
+  width: 100%;
+  padding: 5px;
+  border-radius: 8px;
+}
+.btn-detail:hover {
+  color: #dadada;
+  background-color: #2eca6c;
+}
+.pagination {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  margin-top: 40px;
+}
+.pagination li {
+  display: inline-block;
+  margin: 5px;
+}
+.pagination li a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 50px;
+}
+.previous-page,
+.next-page {
+  border: 1px solid #002374;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+  color: #002374;
+}
+.previous-page svg,
+.next-page svg {
+  width: 10px;
+  height: 10px;
+  color: #002374;
+}
+.previous-page:hover {
+  transform: translateX(-5px);
+}
+.next-page:hover {
+  transform: translateX(5px);
+}
+.current-page,
+.dots {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #9698a9;
+}
+.active {
+  background-color: #002374;
+}
+.disable {
+  background-color: #9698a9;
+  border: none;
+}
+/* End: Shop section */
+
+/* Start: Merk section */
+.merk-section {
+  margin: 100px 0px;
+}
+.card-merk {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+.merk-item img {
+  width: 120px;
+}
+/* End: Merk section */
+
+/* Start: New Arrival */
+.new-section {
+  background-color: rgba(59, 116, 227, 0.2);
+  padding: 50px 0px;
+}
+/* End: New Arrival */
+
+/* Start: Contact us */
+.contact-section {
+  margin: 150px 0px;
+}
+.card-contact {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  padding: 30px;
+}
+.contact-text h4 {
+  font-size: 26px;
+  font-weight: 600;
+}
+.contact-text .contact-p {
+  font-size: 26px;
+  color: black;
+}
+.btn-contact {
+  margin: 80px 0px;
+}
+.btn-3 {
+  background-color: #25d366;
+  width: 568px;
+  height: 75px;
+  line-height: 60px;
+  border-radius: 20px;
+  font-size: 26px;
+  color: white;
+  transition: 0.8s;
+}
+.btn-3:hover {
+  color: #dadada;
+  background-color: #259e53;
+}
+/* End: Contact us */
+
+/* Start: Find us section */
+.find-us {
+  background-image: url("../img/bg-footer.png");
+  padding: 5px;
+}
+.find-item {
+  padding: 40px;
+}
+.find-item .find-map {
+  height: 300px;
+}
+.find-item .find-map iframe {
+  width: 100%;
+  height: 100%;
+}
+.find-list .list-text {
+  margin-top: 40px;
+}
+/* End: Find us section */
+
+/* phone */
+@media (max-width: 576px) {
+  /* Start: Navbar section */
+  .navbar {
+    background-color: white !important;
+  }
+  .navbar .btn-download {
+    background-color: white;
+    color: #3b41e3;
+    border: black 1px solid;
+  }
+
+  .navbar .btn-download:hover {
+    background-color: #7d81f3;
+    color: black;
+  }
+
+  .navbar .nav-item .nav-link {
+    color: black;
+  }
+
+  .navbar .nav-item .nav-link:hover {
+    color: #7d81f3;
+  }
+  /* End: Navbar section */
+
+  /* End: Modal section */
+
+  /* Start: Jumbotron section */
+  .jumbotron {
+    background-image: url("../img/jumbo-bg.jpg");
+    background-size: cover;
+    height: 700px;
+    padding: 10px;
+  }
+  .jumbotron .title-jumbotron {
+    padding-top: 200px;
+    padding-left: 0px;
+  }
+  .jumbotron .title-jumbotron h1 {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+  }
+  .jumbotron .title-jumbotron p {
+    text-align: start;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+  }
+  .utulity {
+    display: flex;
+    justify-content: center;
+  }
+  .utulity .btn-1 {
+    background-color: #30e277;
+    color: white;
+    width: 159px;
+    border-radius: 40px;
+    transition: 0.8s;
+    font-size: 12px;
+  }
+  .utulity .btn-1:hover {
+    color: #dadada;
+    background-color: #259e53;
+  }
+  .utulity .btn-2 {
+    background-color: #ff872e;
+    color: white;
+    width: 159px;
+    border-radius: 40px;
+    transition: 0.8s;
+    font-size: 12px;
+  }
+  .utulity .btn-2:hover {
+    color: #dadada;
+    background-color: #259e53;
+  }
+  /* End: Jumbotron section */
+
+  /* Start: Service section */
+  .service-title h4 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .service-title p {
+    font-size: 9px;
+  }
+  .service-item {
+    gap: 20px;
+  }
+  .icon-service {
+    width: 80px;
+    height: 80px;
+    gap: 20px;
+  }
+  .card p {
+    display: block;
+    font-size: 9px;
+    font-weight: 500px;
+  }
+  .icon .icon-1 {
+    margin-top: 7px;
+    width: 35px;
+  }
+  .icon .icon-2 {
+    width: 50px;
+    margin-top: 8px;
+  }
+  .icon .icon-3 {
+    width: 35px;
+  }
+  .icon .icon-4 {
+    width: 40px;
+    margin: auto;
+  }
+  .icon .icon-5 {
+    width: 40px;
+  }
+  .icon .icon-6 {
+    width: 40px;
+    margin-top: 7px;
+  }
+  .icon .icon-1,
+  .icon-2,
+  .icon-3,
+  .icon-4,
+  .icon-5,
+  .icon-6 {
+    margin-bottom: 0px;
+  }
+  .icon-card h5 {
+    display: none;
+  }
+  .icon-card p {
+    display: none;
+  }
+  /* End: Service section */
+
+  /* Start: Shop section */
+  .shop-section {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+  }
+  .shop-title h4 {
+    font-size: 14px;
+  }
+  .btnSeacrh {
+    background-color: #002374;
+    color: white;
+    border-radius: 10px;
+  }
+  .shopCon {
+    margin-left: 20px;
+  }
+  .shop-item {
+    width: 150px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+  .shop-item .cardImg {
+    background-color: #f6f6f6;
+    width: 100%;
+    padding: 20px 5px;
+  }
+  .shop-item .cardImg img {
+    width: 122px;
+    margin: auto;
+    margin-left: 8px;
+  }
+  .shop-item .card-title {
+    font-size: 10px;
+    margin: 3px 0;
+  }
+  .shop-item .card-text-1,
+  .card-text-2,
+  .card-text-3,
+  .card-text-4,
+  .card-text-5 {
+    margin: 2px 0;
+  }
+  .shop-item .card-text-1 {
+    font-size: 8px;
+    color: #9698a9;
+  }
+  .shop-item .card-text-2 {
+    font-size: 10px;
+  }
+  .shop-item .card-text-3 {
+    font-size: 6px;
+  }
+  .shop-item .card-text-3 svg {
+    width: 10px;
+    height: 10px;
+  }
+  .shop-item .card-text-4 {
+    font-size: 6px;
+  }
+  .shop-item .card-text-4 svg {
+    width: 10px;
+    height: 10px;
+  }
+  .shop-item .card-text-5 {
+    font-size: 6px;
+  }
+  .shop-item .card-text-5 svg {
+    width: 10px;
+    height: 10px;
+  }
+  .btn-detail {
+    margin-top: 10px;
+    font-size: 8px;
+    background-color: #30e277;
+    color: white;
+    width: 57px;
+    padding: 5px;
+    border-radius: 8px;
+  }
+  .pagination {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .pagination li {
+    display: inline-block;
+    margin: 5px;
+  }
+  .pagination li a {
+    font-size: 10px;
+    text-decoration: none;
+    line-height: 35px;
+  }
+  .previous-page,
+  .next-page {
+    border: 1px solid #002374;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #002374;
+  }
+  .previous-page:hover {
+    transform: translateX(-5px);
+  }
+  .next-page:hover {
+    transform: translateX(5px);
+  }
+  .current-page,
+  .dots {
+    color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #9698a9;
+  }
+  .active {
+    background-color: #002374;
+  }
+  .disable {
+    background-color: #9698a9;
+    border: none;
+  }
+  /* End: Shop section */
+
+  /* Start: Merk section */
+  .card-merk {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  }
+  .merk-item img {
+    width: 30px;
+  }
+  /* End: Merk section */
+
+  /* Start: New Arrival */
+  .new-section {
+    background-color: rgba(59, 116, 227, 0.2);
+    padding: 30px 0px;
+  }
+  /* End: New Arrival */
+
+  /* Start: Contact us */
+  .contact-section {
+    margin: 80px 0px;
+  }
+  .card-contact {
+    padding: 10px;
+  }
+  .card-contact h4 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .card-contact span {
+    font-size: 12px;
+  }
+  .btn-contact {
+    margin: 20px 0;
+  }
+  .btn-3 {
+    width: 240px;
+    height: 28px;
+    line-height: 16px;
+    font-size: 12px;
+  }
+  /* End: Contact us */
+
+  /* Start: Find us section */
+  .find-item {
+    padding: 5px;
+  }
+  .find-item .find-map {
+    height: 200px;
+  }
+  .find-item .find-map iframe {
+    width: 100%;
+    height: 100%;
+  }
+  .find-item .find-list {
+    text-align: center;
+  }
+  .find-list ul li {
+    font-size: 12px;
+  }
+  .find-list ul li img {
+    width: 80px;
+  }
+  .find-list .list-text {
+    margin-top: 0px;
+    text-align: justify;
+  }
+  /* End: Find us section */
+}
